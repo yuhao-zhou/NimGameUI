@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane alignment="CENTER" hgap="10.0" vgap="10.0"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="nimgameui.controller.GameController">
+    <HBox  alignment="CENTER" GridPane.rowIndex="0" GridPane.columnIndex="0">
+        <Label fx:id="gameInfo" wrapText="true" textAlignment="CENTER" styleClass="lable-text-gameinfo" stylesheets="@style.css"/>
+    </HBox>
+
+    <FlowPane fx:id="stoneImageSpace" alignment="CENTER" GridPane.rowIndex="3" GridPane.columnIndex="0" minWidth="500"/>
+
+        <HBox  alignment="CENTER" GridPane.rowIndex="5" GridPane.columnIndex="0">
+            <TextField fx:id="removeText"  styleClass="lable-text-para" stylesheets="@style.css"/>
+            <Button styleClass="button-start" stylesheets="@style.css" text="confirm" onMouseClicked="#removeConfirm"/>
+        </HBox>
+
+</GridPane>

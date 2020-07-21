@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane alignment="CENTER" hgap="10.0" vgap="10.0"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="nimgameui.controller.RankController">
+
+        <HBox  alignment="CENTER" GridPane.rowIndex="0" GridPane.columnIndex="0">
+            <Label fx:id="gameInfo" wrapText="true" textAlignment="CENTER" styleClass="lable-text-gameinfo" stylesheets="@style.css"/>
+        </HBox>
+
+        <TableView fx:id="rankTable" GridPane.columnIndex="0" GridPane.rowIndex="1" minWidth="400">
+            <columns>
+                <TableColumn fx:id="username" text="UserName"/>
+                <TableColumn fx:id="gamePlayed" text="Game Played"/>
+                <TableColumn fx:id="winRatio" text="Winning ratio"/>
+            </columns>
+
+        </TableView>
+
+        <HBox  alignment="CENTER" GridPane.rowIndex="2" GridPane.columnIndex="0">
+            <Button styleClass="button-start" stylesheets="@style.css" onMouseClicked="#newGame" text="New Game"/>
+            <Button styleClass="button-start" stylesheets="@style.css" onMouseClicked="#again" text="Restart"/>
+        </HBox>
+
+</GridPane>

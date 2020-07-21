@@ -1,0 +1,30 @@
+.lable-text-welcome {
+    -fx-font-family: serif;
+    -fx-font-size: 30pt;
+    -fx-color: #8b4513;
+}
+
+.lable-text-rules {
+    -fx-font-family: serif;
+    -fx-font-size: 12pt;
+    -fx-color: #8b4513;
+}
+
+.lable-text-para {
+    -fx-font-family: serif;
+    -fx-font-size: 12pt;
+    -fx-color: #8b4513;
+}
+
+.button-start {
+    -fx-font-family: serif;
+    -fx-font-size: 15pt;
+    -fx-text-fill: black;
+    -fx-background-radius: 4;
+}
+
+.lable-text-gameinfo {
+    -fx-font-family: serif;
+    -fx-font-size: 15pt;
+    -fx-color: #8b4513;
+}
